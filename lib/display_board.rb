@@ -3,5 +3,5 @@ def display_board(board = ["X", "X ", "X ", " ", "X", " ", "O", "O", "O"])
   puts ("-----------")
   puts ("   | #{board[4]} |   ")
   puts ("-----------")
-  puts (" #{board[6]} | #{board[7]}   |   ")
+  puts (" #{board[6]} | #{board[7]} | #{board[8]}")
 end
